@@ -21,7 +21,7 @@ function CardExplore({ background, placeholder, title, primary, cardLogo }) {
         <div>
           <img
             src={background}
-            alt="Card Image"
+            alt="Card Bg"
             className="h-[128px] w-full object-cover rounded-lg "
           />
         </div>
