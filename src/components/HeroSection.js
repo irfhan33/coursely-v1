@@ -27,7 +27,6 @@ function HeroSection() {
         {/* Hero Image */}
         <img
           src="/hero-image.svg"
-          alt="Hero Image"
           className="static lg:absolute right-0 lg:bottom-[100px] xl:bottom-[20px] lg:max-w-[58vw] xl:max-w-[70vw] z-10"
           draggable="false"
         />
