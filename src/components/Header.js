@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -21,12 +22,11 @@ function Header() {
             className="h-6 w-6 "
           />
         </div>
-        <a
-          href=""
-          className="h-12 border border-white rounded-lg flex items-center w-auto px-4 md:w-[263px] justify-center font-mon text-sm whitespace-nowrap"
-        >
-          Sign in
-        </a>
+        <Link to="/explore">
+          <a className="h-12 border border-white rounded-lg flex items-center w-auto px-4 md:w-[263px] justify-center font-mon text-sm whitespace-nowrap">
+            Sign in
+          </a>
+        </Link>
       </div>
     </div>
   );
