@@ -14,7 +14,7 @@ function CardExplore({ background, placeholder, title, primary, cardLogo }) {
       } rounded-lg  pb-4 min-h-[388px] flex flex-col cursor-pointer`}
     >
       <div
-        className={`relative after:content-['*'] after:absolute after:top-0 after:bottom-0 after:left-0 after:right-0  after:rounded-lg ${
+        className={`relative after:content-[''] after:absolute after:top-0 after:bottom-0 after:left-0 after:right-0  after:rounded-lg ${
           primary ? primaryColor : defaultColor
         }`}
       >
