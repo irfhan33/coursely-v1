@@ -21,17 +21,12 @@ function CardExplore({ background, placeholder, title, primary, cardLogo }) {
         <div>
           <img
             src={background}
-            alt="Card Bg"
             className="h-[128px] w-full object-cover rounded-lg "
           />
         </div>
 
         <div>
-          <img
-            src={cardLogo}
-            alt="card logo"
-            className="absolute top-4 left-4 z-10"
-          />
+          <img src={cardLogo} className="absolute top-4 left-4 z-10" />
         </div>
         <span className="absolute bottom-2 text-white z-20 px-4">
           {placeholder}
