@@ -4,7 +4,7 @@ import CardExplore from "./CardExplore";
 
 function Explore() {
   return (
-    <div className="px-[26px] sm:px-[40px] bg-[#FDFAF3] min-h-screen">
+    <div className="px-6 sm:px-10 bg-[#FDFAF3] min-h-screen">
       {/* Header */}
       <HeaderExplore />
 

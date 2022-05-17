@@ -5,7 +5,7 @@ import Header from "./Header";
 import HeroSection from "./HeroSection";
 function Landing() {
   return (
-    <div className="px-[26px] sm:px-[40px] bg-[#208458]">
+    <div className="px-6 sm:px-10 bg-[#208458]">
       {/* Header */}
       <Header />
 
